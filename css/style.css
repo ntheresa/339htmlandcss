@@ -1,0 +1,73 @@
+
+body{
+  background:white;
+  color: black;
+  size: 150%;
+  margin:5%;
+
+}
+
+nav a{
+  font-family: Verdana;
+  color: #800000;
+}
+
+a.current{
+  color:black;
+  font-size: 20px;
+}
+
+h1{
+  font-size: 30px;
+}
+
+h3{
+  font-size: 25px;
+  text-align: center;
+}
+
+.country{
+  color: #800000;
+}
+
+.skip{
+  position:relative;
+  left: -2000px;
+}
+
+.skip:focus{
+  color: blue;
+}
+
+.italyimage {
+    width: 200px;
+    height: auto;
+}
+
+.post-container {
+    margin: 20px 20px 0 0;
+    overflow: auto
+}
+.post-thumb {
+    float: left
+}
+.post-thumb img {
+    display: block
+}
+.post-content {
+    margin-left: 210px
+}
+.post-title {
+    font-weight: bold;
+    font-size: 200%
+}
+
+.worldmap {
+    width: 200px;
+    height: auto;
+}
+
+figure {
+  display: inline-block;
+  text-align: center;
+}
