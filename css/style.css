@@ -1,4 +1,9 @@
 
+
+footer{
+  min-height: 5vh;
+}
+
 body{
   background:white;
   color: black;
@@ -30,13 +35,14 @@ h3{
   color: #800000;
 }
 
-.skip{
+a.skip{
   position:relative;
-  left: -2000px;
+  left: -200px;
 }
 
-.skip:focus{
-  color: blue;
+a.skip:focus{
+  left: 10px;
+  border: 2px solid black;
 }
 
 .italyimage {
@@ -46,16 +52,16 @@ h3{
 
 .post-container {
     margin: 20px 20px 0 0;
-    overflow: auto
+    overflow: auto;
 }
 .post-thumb {
     float: left
 }
 .post-thumb img {
-    display: block
+    display: block;
 }
 .post-content {
-    margin-left: 210px
+    margin-left: 210px;
 }
 .post-title {
     font-weight: bold;
@@ -67,7 +73,45 @@ h3{
     height: auto;
 }
 
-figure {
-  display: inline-block;
-  text-align: center;
+
+
+div{
+  display:inline-block;
+  text-align:center;
+}
+
+.container{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 40px;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container-form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }

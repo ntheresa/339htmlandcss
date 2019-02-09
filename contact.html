@@ -20,11 +20,30 @@
         <li> <a href="contact.html" class  = "current"> Contact </a> </li>
         </ul>
        </nav>
-       <h1> CONTACT </h1>
+       <h1> CONTACT FORM </h1>
     </header>
-    <main id = "main" </main>
+    <main id = "main" >
     <br>
+    <div class="container-form">
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+  <div>
     travellersguide@gmail.com <br>
     (800) 123 - 4567
+    </div>
+    </main>
+    <footer>
+      <p>  Created by Theresa Nguyen </p> </footer>
   </body>
 </html>
